@@ -1,0 +1,29 @@
+@import '../../mq';
+@media #{$desktopHD} {
+  @import '../desktop';
+  & {
+    .parallax-wrapper {
+      overflow: inherit;
+    }
+    .bg-1.bg {
+      bottom: -10%;
+    }
+    .foundation {
+    margin-top: -115px;
+    }
+    .course {
+      text-align: center;
+      background-size: cover;
+      position: relative;
+      top: -75px;
+    }
+    .statistics {
+      margin: -250px 0 -165px;
+    }
+    .footer { 
+      .parallax-wrapper {
+        overflow: hidden;
+      }
+    }
+  }
+}

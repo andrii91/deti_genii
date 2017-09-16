@@ -1,0 +1,162 @@
+& {
+	.bg {
+		width: 130%;
+		left: -15%;
+		right: -15%
+	}
+	nav .menu li {
+		display: block;
+	}
+	nav .menu {
+		margin-top: 40px;
+		display: none;
+	}
+	.mob-btn {
+		display: block;
+	}
+	.head-title {
+		font-size: 40px;
+		line-height: 1;
+	}
+	.head-box img {
+		float: none;
+	}
+	.header {
+		background: url('../images/bg.png') no-repeat center;
+		background-size: cover;
+		text-align: center;
+	}
+	.head-box .start {
+		background: none;
+	}
+	.head-box .start h2 {
+		font-size: 60px;
+	}
+	.registration-btn {
+		line-height: 1;
+	}
+	.head-info {
+		margin-top: 0;
+	}
+	.cloud-bg {
+    padding: 60px 0;
+    position: relative;
+    margin: -50px 0;
+	}
+	.cloud {
+		background-size: 400%;
+	}
+	.cloud-box:before {
+		display: none;
+	}
+	.info {
+		padding: 30px 0;
+		overflow: hidden;
+		img {
+			width: 100%;
+		}
+	}
+	.mar-left-100 {
+		margin-left: 0;
+	}
+	.info-title {
+		font-size: 30px;
+	}
+	.info-block {
+		margin-top: 0;
+	}
+	.important p {
+		width: 100%;
+	}
+	.important {
+		margin-top: 0;
+	}
+	.info-block img {
+		margin: 0;
+	}
+	.items {
+		margin-top: 130px;
+		padding: 30px;
+	}
+	.item-box {
+		padding: 5px;
+		background: none;
+		min-height: 100%;
+
+	}
+	.program li:first-child {
+		padding: 5px;
+		background-position: center;
+		background-size: cover;
+	}
+	.program li {
+		background-size: cover !important;
+		background-position: center !important;
+		padding: 5px;
+	}
+	.program li:before {
+		display: none;
+	}
+	.program-box {
+		width: 100%;
+		max-width: 980px;
+		background: none;
+		padding: 5px;
+	}
+	.video-item h4 {
+		font-size: 28px;
+		line-height: 1;
+	}
+	.video-item p {
+		font-size: 19px;
+		line-height: 1;
+	}
+	.future-img {
+		padding-top: 147px;
+		min-height: 276px;
+		max-width: 290px;
+	}
+	.future-img:nth-child(2) {
+		margin-left: 0;
+		padding-top: 111px;
+		font-size: 14px;
+	}
+	.future-img:nth-child(3) {
+		padding-top: 140px;
+	}
+	.future-info {
+		padding: 5px;
+	}
+	.course {
+		padding: 50px 0;
+	}
+	.foundation-title {
+		font-size: 22px;
+	}
+	.line:before {
+		display: none;
+	}
+	.price {
+		margin-top: 0; 
+		padding: 30px 0;
+	}
+	.price-box:first-child {
+		border: 0;
+		margin: 0 0 40px;
+	}
+	.garant {
+		padding: 30px 0;
+		margin: 0;
+	}
+	.footer-title {
+		margin-bottom: 0;
+		padding: 0;
+	}
+	.name {
+		font-size: 12px;
+	}
+	section {
+		overflow-x: hidden;
+	}
+
+}
