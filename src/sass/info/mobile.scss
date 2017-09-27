@@ -1,4 +1,44 @@
 & {
+     .head-box img {
+		float: left;
+	}
+	.head-box .start {
+		max-width: 390px;
+	}
+	.head-box .start h2 span {
+		display: block;
+	}
+	.head-title {
+		font-size: 64px;
+	}
+	.parallax-wrapper {
+		display: none;
+	}
+	.statistics {
+		margin: 0;
+	}
+	.garant {
+		img {
+			width: 100%;
+		}
+	}
+	.foundation {
+		margin-top: 0;
+	}
+	.future-item {
+		padding-bottom: 30px;
+	}
+	.program {
+		li {
+			&:before {
+				display: block;
+			}
+		}
+	}
+	.header {
+		min-height: auto;
+	}
+	
 	.bg {
 		width: 130%;
 		left: -15%;
