@@ -61,29 +61,33 @@
         loader.fadeOut(1000, function() {
             loadWrap.fadeOut(1000, function() {
                 loadWrap.remove();
-                $('.zoom').addClass("hidden_animation").viewportChecker({
-                    classToAdd: 'visible animated zoomInDown', // Class to add to the elements when they are visible
-                    offset: 50    
-                });
 
-                $('.myflip').addClass("hidden_animation").viewportChecker({
-                    classToAdd: 'visible animated flip', // Class to add to the elements when they are visible
-                    offset: 50    
-                });
+                if ($(window).width() < 1150) {
+                    $('.zoom').addClass("hidden_animation").viewportChecker({
+                        classToAdd: 'visible animated zoomInDown', // Class to add to the elements when they are visible
+                        offset: 50    
+                    });
 
-                $('.right').addClass("hidden_animation").viewportChecker({
-                    classToAdd: 'visible animated bounceInRight', // Class to add to the elements when they are visible
-                    offset: 50    
-                });
-                $('.left, .course-list li').addClass("hidden_animation").viewportChecker({
-                    classToAdd: 'visible animated bounceInLeft', // Class to add to the elements when they are visible
-                    offset: 50    
-                });
+                    $('.myflip').addClass("hidden_animation").viewportChecker({
+                        classToAdd: 'visible animated flip', // Class to add to the elements when they are visible
+                        offset: 50    
+                    });
 
-                $('.down').addClass("hidden_animation").viewportChecker({
-                    classToAdd: 'visible animated bounceInDown', // Class to add to the elements when they are visible
-                    offset: 50    
-                });
+                    $('.right').addClass("hidden_animation").viewportChecker({
+                        classToAdd: 'visible animated bounceInRight', // Class to add to the elements when they are visible
+                        offset: 50    
+                    });
+                    $('.left, .course-list li').addClass("hidden_animation").viewportChecker({
+                        classToAdd: 'visible animated bounceInLeft', // Class to add to the elements when they are visible
+                        offset: 50    
+                    });
+
+                    $('.down').addClass("hidden_animation").viewportChecker({
+                        classToAdd: 'visible animated bounceInDown', // Class to add to the elements when they are visible
+                        offset: 50    
+                    });
+                    
+                }
             });
         });
 
