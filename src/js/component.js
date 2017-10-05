@@ -62,7 +62,7 @@
             loadWrap.fadeOut(1000, function() {
                 loadWrap.remove();
 
-                if ($(window).width() > 1200) {
+                /*if ($(window).width() > 1200) {
                     $('.zoom').addClass("hidden_animation").viewportChecker({
                         classToAdd: 'visible animated zoomInDown', // Class to add to the elements when they are visible
                         offset: 50    
@@ -87,7 +87,7 @@
                         offset: 50    
                     });
                     
-                }
+                }*/
             });
         });
 
