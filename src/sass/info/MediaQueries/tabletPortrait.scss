@@ -42,5 +42,18 @@
 	.header {
 		min-height: auto;
 	}
+      .price-box {
+        max-width: 330px;
+      }
+      .price-btn {
+        font-size: 20px;
+      }
+      .price-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-height: 250px;
+    margin-bottom: 20px;
+}
 	}
 }

@@ -81,8 +81,11 @@
 	.cloud-bg {
     padding: 60px 0;
     position: relative;
-    margin: -50px 0;
+    margin: 0;
 	}
+  .head {
+    padding-bottom: 30px;
+  }
 	.cloud {
 		background-size: 400%;
 	}
@@ -92,13 +95,9 @@
 	.info {
 		padding: 30px 0;
 		overflow: hidden;
-		img {
-			width: 100%;
-		}
+		
 	}
-	.mar-left-100 {
-		margin-left: 0;
-	}
+	
 	.info-title {
 		font-size: 30px;
 	}
@@ -115,7 +114,7 @@
 		margin: 0;
 	}
 	.items {
-		margin-top: 130px;
+		margin-top: 30px;
 		padding: 30px;
 	}
 	.item-box {
@@ -195,8 +194,12 @@
 	.name {
 		font-size: 12px;
 	}
-	section {
+	section,.statistics, .footer, .foundation, .video {
 		overflow-x: hidden;
+      padding: 30px 0;
 	}
+  .content p {
+    font-size: 12px;
+  }
 
 }

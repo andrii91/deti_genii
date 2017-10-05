@@ -1,99 +1,13 @@
-(function($){
-    $.fn.viewportChecker = function(useroptions){
-        // Define options and extend with user
-        var options = {
-            classToAdd: 'visible',
-            offset: 100,
-            callbackFunction: function(elem){}
-        };
-        $.extend(options, useroptions);
-
-        // Cache the given element and height of the browser
-        var $elem = this,
-            windowHeight = $(window).height();
-
-        this.checkElements = function(){
-            // Set some vars to check with
-            var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html'),
-                viewportTop = $(scrollElem).scrollTop(),
-                viewportBottom = (viewportTop + windowHeight);
-
-            $elem.each(function(){
-                var $obj = $(this);
-                // If class already exists; quit
-                if ($obj.hasClass(options.classToAdd)){
-                    return;
-                }
-
-                // define the top position of the element and include the offset which makes is appear earlier or later
-                var elemTop = Math.round( $obj.offset().top ) + options.offset,
-                    elemBottom = elemTop + ($obj.height());
-
-                // Add class if in viewport
-                if ((elemTop < viewportBottom) && (elemBottom > viewportTop)){
-                    $obj.addClass(options.classToAdd);
-
-                    // Do the callback function. Callback wil send the jQuery object as parameter
-                    options.callbackFunction($obj);
-                }
-            });
-        };
-
-        // Run checkelements on load and scroll
-        $(window).scroll(this.checkElements);
-        this.checkElements();
-
-        // On resize change the height var
-        $(window).resize(function(e){
-            windowHeight = e.currentTarget.innerHeight;
-        });
-    };
-
-
-
-
-
-})(jQuery);
-
-    $(window).on("load", function() {
-        var loadWrap = $(".loading-wrapper"),
-            loader = loadWrap.find(".loader");
-        loader.fadeOut(1000, function() {
-            loadWrap.fadeOut(1000, function() {
-                loadWrap.remove();
-
-                /*if ($(window).width() > 1200) {
-                    $('.zoom').addClass("hidden_animation").viewportChecker({
-                        classToAdd: 'visible animated zoomInDown', // Class to add to the elements when they are visible
-                        offset: 50    
-                    });
-
-                    $('.myflip').addClass("hidden_animation").viewportChecker({
-                        classToAdd: 'visible animated flip', // Class to add to the elements when they are visible
-                        offset: 50    
-                    });
-
-                    $('.right').addClass("hidden_animation").viewportChecker({
-                        classToAdd: 'visible animated bounceInRight', // Class to add to the elements when they are visible
-                        offset: 50    
-                    });
-                    $('.left, .course-list li').addClass("hidden_animation").viewportChecker({
-                        classToAdd: 'visible animated bounceInLeft', // Class to add to the elements when they are visible
-                        offset: 50    
-                    });
-
-                    $('.down').addClass("hidden_animation").viewportChecker({
-                        classToAdd: 'visible animated bounceInDown', // Class to add to the elements when they are visible
-                        offset: 50    
-                    });
-                    
-                }*/
-            });
-        });
-
-    });
 
     $(document).ready(function() {
+      
+      $('.clients-more').click(function() {
+        $(this).parent().find('.more').slideToggle(200);
+        $(this).toggleClass('active');
+        $('.clients-more').text('Смотреть полностью....');
+        $('.clients-more.active').text('Свернуть...');
+      })
+                
         $('.head-img img').click(function() {
             var destination = $(".program").offset().top - 0;
             $("body,html").animate({

@@ -66,9 +66,9 @@
 }
 
 .slide-1 {
-  -webkit-animation: slide-1 28s .1s infinite linear;
-  -moz-animation: slide-1 28s .1s infinite linear;
-  animation: slide-1 28s .1s infinite linear
+  -webkit-animation: slide-1 100s .1s infinite linear;
+  -moz-animation: slide-1 100s .1s infinite linear;
+  animation: slide-1 100s .1s infinite linear
 } 
 
 @keyframes slide {
@@ -689,7 +689,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
   position: relative;
   z-index: 9;
   margin-top: -150px;
-  padding-bottom: 252px;
+  padding-bottom: 100px;
   .parallax-wrapper {
     overflow: inherit;
   }
@@ -924,12 +924,25 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
 }
 
 .video-item {
-  background: url('../images/vector-smart-object.png') no-repeat center;
+//  background: url('../images/vector-smart-object.png') no-repeat center;
   max-width: 869px;
   margin: 0 auto;
   min-height: 481px;
   padding: 23px 0 75px;
   text-align: center;
+  position: relative;
+  
+  &:before {
+    content: "";
+    background: url('../images/vector-smart-object.png') no-repeat center;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 1920px;
+    height: 491px;
+  }
   img {
     margin-bottom: 20px;
   }
@@ -1559,4 +1572,19 @@ opacity: 1;
 }
 main {
   overflow: hidden;
+}
+
+.clients-more {
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.more {
+  display: none;
 }
