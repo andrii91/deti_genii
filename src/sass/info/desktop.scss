@@ -1,24 +1,32 @@
 & {
-/*	.bg, .cloud {
-		width: 130%;
-		left: -15%;
-		right: -15%
-	}
-  */
+
   .course {
-    margin-top: -80px;
+    margin-top: -130px;
   }
   .cloud-5 {
     background: url(../images/fon65216.png) no-repeat center;
     background-size: 90%;
-}
+  }
   .cloud-6 {
     background: url(../images/fon45489.png) no-repeat center 35%;
     background-size: 90%;
-}
-  .cloud-1 {
+  }
+  .garant .cloud-1 {
     background: url(../images/tusha-1.png) center no-repeat;
-    background-size: 73%;
-}
-
+    background-size: 65%;
+  } 
+  .item-block {
+    background: url(../images/3-layers.png) no-repeat center 415px;
+    background-size: 110%;
+  }
+  .program li:nth-child(6) {
+    margin-left: 57px;
+  }
+  .future-item {
+    background-size: 120%;
+  }
+  .cloud-7 {
+    background: url(../images/tushki-fon.png) no-repeat center;
+    background-size: 79%;
+  }
 }
