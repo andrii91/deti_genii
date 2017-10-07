@@ -1330,6 +1330,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
   margin:  -210px 0;
   z-index: 10;
   background: url(../images/tusha-1.png) center no-repeat;
+  background-size: contain; 
   p {
     color: #222528;
     font-family: "Kelson Sans";
