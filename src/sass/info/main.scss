@@ -29,15 +29,19 @@
 .parallax-wrapper {
   position: absolute
 }
-
-.cloud-1 {
+.video .cloud-1 {
   background: url(../images/tusha-1.png) center no-repeat;
   background-size: 84%
 }
 
+.cloud-1 {
+  background: url(../images/tusha-1.png) center no-repeat;
+  background-size: 65%
+}
+
 .cloud-2 {
   background: url(../images/tusha-2.png) center no-repeat;
-  background-size: 84%
+  background-size: 65%
 }
 
 .bg {
@@ -425,6 +429,8 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
   padding: 335px 0;
   position: relative;
   margin: -285px 0 -400px;
+  background: url(../images/tusha-1.png) center no-repeat;
+
 }
 
 .cloud-box {
@@ -858,9 +864,8 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
       background: url('../images/li6.png') no-repeat;
       padding: 27px 24px 35px 25px;
       max-width: 525px;
-      background-size: 100%;
-       margin-top: 20px;
-      margin-left: 57px;
+    margin-top: 37px;
+    margin-left: 82px;
       &:before {
         content: "";
         background: url('../images/125145.png') no-repeat;
@@ -937,7 +942,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
   &:before {
     content: "";
     background: url('../images/vector-smart-object.png') no-repeat center;
-    opacity: 0.7;
+    opacity: 0.2;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1091,7 +1096,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
 
 .course {
   background: url('../images/fon4856.png') no-repeat center;
-  padding: 159px 0;
+  padding: 240px 0 159px;
   text-align: center;
   background-size: cover;
   margin-top: -130px;
@@ -1370,7 +1375,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
 
 .cloud-7 {
   background: url('../images/tushki-fon.png') no-repeat center;
-  background-size: 84%;
+  background-size: 75%;
 }
 
 .footer {
@@ -1405,7 +1410,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
   font-family: Veles;
   font-size: 30px;
   font-weight: bold;
-  padding-left: 90px;
+  padding-left: 90px; 
   margin-bottom: -30px;
 }
 
@@ -1496,7 +1501,8 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Col
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
   margin-top: 7px;
-  display: none
+  display: none;
+  margin-right: 10px;
 }
 
 .mob-btn:before {

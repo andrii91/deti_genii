@@ -4,6 +4,29 @@
     @import '../mobile';
   
   & {
-
+	.mar-left-100 {
+		margin-left: 0;
+	}
+	.info {
+		img {
+			width: 100%;
+		}
+	}
+	.info-title:before {
+		right: 0;
+	}
+	.item-block {
+    background-size: cover;
+	}
+	.program li:nth-child(6) {
+		margin-left: 0;
+	}
+	.program-box p {
+		text-align: center;
+	}
+	.name {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
   }
 }
