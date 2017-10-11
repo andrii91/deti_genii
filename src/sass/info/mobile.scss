@@ -12,10 +12,9 @@
 		font-size: 64px;
 	}
 	.parallax-wrapper {
-		display: none;
+		/*display: none;*/
 	}
 	.statistics {
-		margin: 0;
 	}
 	.garant {
 		img {
@@ -23,9 +22,9 @@
 		}
 	}
 	.foundation {
-		margin-top: 0;
+		/*margin-top: 0;*/
 	}
-	.future-item {
+	.future-item { 
 		padding-bottom: 30px;
 	}
 	.program {
@@ -79,23 +78,29 @@
 		margin-top: 0;
 	}
 	.cloud-bg {
-    padding: 60px 0;
-    position: relative;
-    margin: 0;
+    /*padding: 60px 0;*/
+    /*position: relative;*/
+    /*margin: 0;*/
+	}
+	.important-box {
+		font-size: 16px;
 	}
   .head {
     padding-bottom: 30px;
   }
 	.cloud {
-		background-size: 400%;
+		background-size: 150%;
 	}
 	.cloud-box:before {
 		display: none;
 	}
 	.info {
-		padding: 30px 0;
+		padding: 30px 0 100px;
 		overflow: hidden;
-		   
+       background: url(../images/tusha-2.png),#238b32;
+	    background-size: 150%;
+	    background-repeat: no-repeat;
+	    background-position: center 103%;
 	}
 	
 	.info-title {
@@ -114,8 +119,11 @@
 		margin: 0;
 	}
 	.items {
-		margin-top: 30px;
+		margin-top: -60px;
 		padding: 30px;
+		.parallax-wrapper {
+			display: none;;
+		}
 	}
 	.item-box {
 		padding: 5px;
@@ -167,7 +175,7 @@
 		padding: 5px;
 	}
 	.course {
-		padding: 50px 0;
+		padding: 150px 0;
 	}
 	.foundation-title {
 		font-size: 22px;
@@ -176,16 +184,16 @@
 		display: none;
 	}
 	.price {
-		margin-top: 0; 
-		padding: 30px 0;
+    margin-top: -80px;
+    padding: 80px 0 200px;
 	}
 	.price-box:first-child {
 		border: 0;
 		margin: 0 0 40px;
 	}
 	.garant {
-		padding: 30px 0;
-		margin: 0;
+		/* padding: 30px 0;
+		margin: 0; */
 	}
 	.footer-title {
 		margin-bottom: 0;
@@ -194,15 +202,48 @@
 	.name {
 		font-size: 12px;
 	}
-	section,.statistics, .footer, .foundation, .video {
+	/* section,.statistics, .footer, .foundation, .video {
 		overflow-x: hidden;
-      padding: 30px 0;
-	}
+	      padding: 30px 0;
+	} */
   .content p {
     font-size: 12px;
   }
   .course {
   	margin-top: 0;
   }
+  .slide, .slide-1 {
+  	animation: none;
+  }
+  .cloud.cloud-4 {
+  	    background-size: 780%;
+	    min-height: 1995px;
+	    background-position: center;
+  }
+  .future-info {
+  	background: none;
+  	font-size: 20px;
+  }
+  .registration-btn {
+  	font-size: 14px;
+  }
+  .foundation .cloud {
+    background-size: 355%;
+}
+.garant {
+    position: relative;
+    padding: 168px 0;
+    margin: -210px 0;
+    z-index: 10;
+    background: url(../images/tusha-1.png) center 100% no-repeat;
+    background-size: 300%;
+}
 
+
+.footer {
+    padding-top: 295px;
+}
+.social li {
+	margin: 15px;
+}
 }

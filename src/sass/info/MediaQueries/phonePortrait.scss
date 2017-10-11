@@ -29,4 +29,15 @@
 		margin-left: 15px;
 	}
   }
+
+}
+
+@media (min-width: 375px) {
+  
+  .cloud.cloud-4 {
+    background-size: 630%;
+    min-height: 1995px;
+    background-position: center;
+	}
+
 }
