@@ -95,12 +95,12 @@
 		display: none;
 	}
 	.info {
-		padding: 30px 0 100px;
-		overflow: hidden;
-       background: url(../images/tusha-2.png),#238b32;
-	    background-size: 150%;
-	    background-repeat: no-repeat;
-	    background-position: center 103%;
+	    padding: 30px 0 100px;
+	    overflow: hidden;
+	    background: url(../images/tusha-2.png),#238b32;
+	    background-size: 195%;
+	    background-repeat: no-repeat; 
+	    background-position: center 106%;
 	}
 	
 	.info-title {
@@ -175,7 +175,12 @@
 		padding: 5px;
 	}
 	.course {
-		padding: 150px 0;
+		padding: 60px 0 150px;
+		margin-top: 0;
+		background: url(../images/fon1.png) , #68acf6;
+		background-size: 150%;
+		background-repeat: no-repeat;
+		background-position: center -25%;
 	}
 	.foundation-title {
 		font-size: 22px;
@@ -209,9 +214,7 @@
   .content p {
     font-size: 12px;
   }
-  .course {
-  	margin-top: 0;
-  }
+
   .slide, .slide-1 {
   	animation: none;
   }
@@ -246,4 +249,18 @@
 .social li {
 	margin: 15px;
 }
+	.future {
+	    background: #ffe9c0;
+	    padding : 30px 0;
+		.parallax-wrapper {
+			display: none;
+		}
+	}
+	.video {
+		padding-bottom: 60px;
+		background: url(../images/fon1.png) , #f33535;
+		background-size: 150%;
+		background-repeat: no-repeat;
+		background-position: center 130%;
+	}
 }
