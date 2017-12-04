@@ -88,5 +88,8 @@
             });
         });
 
+        $('.more-btm').click(function(){
+            $(this).parent().find('ol li').show('200');
+        })
 
     });
