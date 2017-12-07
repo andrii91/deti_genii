@@ -255,12 +255,19 @@
 		.parallax-wrapper {
 			display: none;
 		}
-	}
+	} 
 	.video {
 		padding-bottom: 60px;
 		background: url(../images/fon1.png) , #f33535;
 		background-size: 150%;
 		background-repeat: no-repeat;
 		background-position: center 130%;
+	}
+	.price-box {
+		border: 0;
+		margin: 0 0 30px;
+	}
+	.price-box ul {
+		min-height: initial;
 	}
 }
