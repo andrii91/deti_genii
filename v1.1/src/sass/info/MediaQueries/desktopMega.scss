@@ -1,0 +1,10 @@
+@import '../../mq';
+
+@media #{$desktopMega} {
+    @import '../desktop';
+    & {
+      .parallax-wrapper {
+        overflow: inherit;
+      }
+    }
+}

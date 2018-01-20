@@ -1,0 +1,14 @@
+@import '../../mq';
+
+@media #{$phoneLandscape} {
+    @import '../mobile';
+
+    & {
+      .cloud.cloud-4 {
+    background-size: 530%;
+	}
+	body .course {
+    padding: 210px 0;
+}
+    }
+}

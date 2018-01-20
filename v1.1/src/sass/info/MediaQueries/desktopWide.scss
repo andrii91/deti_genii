@@ -1,0 +1,11 @@
+@import '../../mq';
+
+@media #{$desktopWide} {
+    @import '../desktop';
+    & {
+	.item-block {
+    background: url(../images/3-layers.png) no-repeat center 415px;
+    background-size: 110%;
+  }
+	}
+}

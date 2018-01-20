@@ -1,0 +1,10 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+    @import '../desktop';
+    .info-block img {
+    	float: right;
+    	width: auto;    margin-top: -205px;
+    }
+    
+}

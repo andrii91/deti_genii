@@ -1,0 +1,38 @@
+@import '../../mq';
+@media #{$desktopHD} {
+  @import '../desktop';
+  & {
+    .parallax-wrapper {
+      overflow: inherit;
+    }
+    .bg-1.bg {
+      bottom: -10%;
+    }
+
+    .course {
+      text-align: center;
+      background-size: cover;
+      position: relative;
+    }
+    .statistics {
+      margin: -250px 0 -165px;
+    }
+    .footer {
+      .parallax-wrapper {
+        overflow: hidden;
+      }
+    }
+    .cloud-4 {
+      background: url(../images/fon1.png) no-repeat center;
+      background-size: 65%;
+    }
+    .cloud-5 {
+      background: url(../images/fon65216.png) no-repeat center;
+      background-size: 65%;
+    }
+    .cloud-7 {
+      background: url(../images/tushki-fon.png) no-repeat center;
+      background-size: 62%;
+    }
+  }
+}

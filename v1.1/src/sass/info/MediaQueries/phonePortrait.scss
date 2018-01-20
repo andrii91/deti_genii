@@ -1,0 +1,149 @@
+@import '../../mq';
+
+@media #{$phonePortrait} {
+    @import '../mobile';
+  
+  & {
+	.mar-left-100 {
+		margin-left: 0;
+	}
+	.info {
+		img {
+			width: 100%;
+		}
+	}
+	.info-title:before {
+		right: 0;
+		top: -80px;
+	}
+	.item-block {
+    background-size: cover;
+	}
+	.program li:nth-child(6) {
+		margin-left: 0;
+	}
+	.program-box p {
+		text-align: center;
+	}
+	.name {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.head-box h3 {
+		font-size: 15px;
+	}
+	.head-box .start h2 span {
+		border: 0;
+	}
+	.head-info {
+		font-size: 18px;
+		text-align: center;
+	}
+	.info-title {
+		font-size: 22px;
+	}
+	.info-box {
+		padding: 0;
+	}
+	.info-box p, .info-box p.yellow {
+		font-size: 15px;
+		text-align: center;
+	}
+	.info-block h3 {
+		text-align: center;
+		font-size: 18px;
+	}
+	.info-list li {
+	    padding-left: 40px;
+	    font-size: 16px;
+	    font-weight: 700;
+	    line-height: 1.2;
+	    margin-bottom: 10px;
+	}
+	.info-block p {
+	    font-size: 17px;
+	    padding-left: 0;
+	    margin-top: 25px;
+	    text-align: center;
+	}
+	.important p {
+	    font-size: 18px;
+	    text-align: center;
+	}
+	.stop h2 {
+	    font-size: 24px;
+	    margin-bottom: 60px;
+	}
+	.stop p {
+		font-size: 14px;
+	}
+	.items {
+		margin-top: 0;
+	}
+	.item-title {
+		font-size: 21px;
+		line-height: 1.1;
+		margin-bottom: 10px;
+	}
+	.item-box h5, .future-title_bottom {
+		font-size: 16px;
+	}
+	.item-box p {
+		font-size: 14px;
+	}
+	.program {
+		margin-top: 30px;
+		min-height: auto;
+		li {
+			font-size: 14px;
+		}
+	}
+	.program li:first-child {
+		font-size: 14px; 
+		padding: 5px;
+	}
+	.program li:nth-child(6) {
+		margin-top: 0;
+	}
+	.program-box p, .future-info {
+		font-size: 15px;
+	}
+	.future-title, .future-title span, .future-title span mark {
+		font-size: 18px;
+	}
+	.course-title {
+		font-size: 21px;
+		line-height: 1.1;
+	}
+	.footer-title {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.clients-more {
+		font-size: 12px;
+	}
+	.course-list li {
+		font-size: 12px;
+	}
+	.course {
+	    background-position: center -40%;
+	}
+	.foundation {
+		padding-bottom: 125px;
+	}
+	.price-title {
+		font-size: 24px;
+	}
+  }
+
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  
+  .cloud.cloud-4 {
+    background-size: 630%;
+    min-height: 1995px;
+    background-position: center;
+	}
+
+}

@@ -1,0 +1,109 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+  & {
+    .xs-first {
+      -ms-flex-order: 1;
+      order: 1;
+    }
+
+    .head-box img {
+      float: left;
+    }
+    .head-box .start {
+      max-width: 390px;
+    }
+    .head-box .start h2 span {
+      display: block;
+    }
+    .head-title {
+      font-size: 64px;
+    }
+    .parallax-wrapper {
+      display: none;
+    }
+    .statistics,
+    section,
+    footer,
+    .items {
+      margin: 0;
+    }
+    .info {
+      background-image: none;
+      padding-top: 185px;
+    }
+    .program li:nth-child(6) {
+      margin-left: 0;
+    }
+    .garant {
+      img {
+        width: 100%;
+      }
+    }
+    .foundation {
+      /*margin-top: 0;*/
+    }
+    .future-item {
+      padding-bottom: 30px;
+    }
+    .program {
+      li {
+        &:before {
+          display: block;
+        }
+      }
+    }
+    .header {
+      min-height: auto;
+    }
+    .price-box {
+      max-width: 330px;
+    }
+    .price-btn {
+      font-size: 20px;
+    }
+    .price-box ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      min-height: 385px;
+      margin-bottom: 20px;
+    }
+    .garant {
+      position: relative;
+      padding: 38px 0;
+      margin: 0;
+    }
+    .footer {
+      padding-top: 30px;
+    }
+    .video,
+    .future-item,
+    .course,
+    .foundation,
+    .price,
+    .statistics {
+      padding: 30px 0;
+      margin-top: 0 !important;
+      margin-bottom: 0;
+    }
+  }
+  .video {
+    background-size: 100%;
+    background-position: center 200%;
+  }
+  .course {
+    background-size: 100%;
+    background-position: center -820%;
+  }
+  .info-block img {
+    float: none;
+    margin-right: 0;
+    margin-left: -150px;
+  }
+
+  .mar-left-100 {
+    margin-left: -152px;
+  }
+}
